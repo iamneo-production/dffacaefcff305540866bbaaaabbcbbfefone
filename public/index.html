@@ -1,26 +1,33 @@
+<!DOCTYPE html>
 <html>
-    <head>
+<head>
+    <title>lamNeo's CODE REVIEW</title>
+</head>
+<body>
+    <hl>'lamNeo's CODE REVIEW'</hl>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="user_name" placeholder="Required" required><br><br>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="user_mail" placeholder="Required" required><br><br>
+        
+        <label for="city">City:</label>
+        <input type="text" id="city" name="user_city" placeholder="Pune"><br><br>
+        
+        <label class="checkbox-label">
+            <input type="checkbox" name="html_news"> HTML News
+        </label><br>
+        <label class="checkbox-label">
+            <input type="checkbox" name="css_news"> CSS News
+        </label><br>
+        <label class="checkbox-label">
+            <input type="checkbox" name="js_news"> Javascript News
+        </label><br><br>
+        
+        <button type="submit">Sign Up</button>
+    </form>
     
-    </head>
-    <body>
-        <h1>
-            IamNEO's CODE REVIEW
-        </h1>
-        <form>
-            <br>
-            <div>
-            Full Name:<input type="text" id="name" name="user_name" placeholder="Required" required>
-            Email Address:<input type="email" id="email" name="user_mail" placeholder="Required" required>
-            City:<input type="text" id="city" name="user_city" placeholder="Pune">
-            </div>
-            <br>
-            <label class="checkbox" formArrayName="HTML,CSS News, Javascript News  " >
-            
-            <input type="button" name="Sign Up">
-                <p class="footer">
-                    Sign Up
-                </p>
-
-        </form>
-    </body>
+    <p class="footer">Write the exact same text shown in the output</p>
+</body>
 </html>
